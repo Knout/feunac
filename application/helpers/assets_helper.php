@@ -9,3 +9,12 @@ if (!function_exists('css_url')) {
   }
 
 }
+
+if (!function_exists('less_url')) {
+
+  function less_url($name) {
+    return site_url() . 'application/assets/styles/' . $name . '.less';
+  }
+
+}
+
